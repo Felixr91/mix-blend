@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+}
+
+.healthwise-photo{
+	margin-top: 100px;
+	height: 80%;
+	width: 50%;
+	background-image: url('assets/healthwise.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.alzar-photo{
+	margin-top: 100px;
+	height: 80%;
+	width: 50%;
+	background-image: url('assets/alzar.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.health-text{
+	position: fixed;
+	top: 70%;
+	right: 20%;
+	color: white;
+	mix-blend-mode: difference;
+	font-size: 5.5rem;
+}
+
+.horizontal-scroll{
+	flex-direction: row;
+	height: 100vh;
+}
+
+.healthdiv{
+	height: 80%;
+	width: 80vw;
+	display: flex; 
+	justify-content: center; 
+}
